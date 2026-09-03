@@ -1,6 +1,6 @@
 ## How to Create a Conviction
 
-Conviction allows you to **lock your SYSKY tokens** to gain stronger voting power when voting on proposals.
+Conviction allows you to **lock your AROGYA tokens** to gain stronger voting power when voting on proposals.
 
 The longer you lock your tokens, the more influence your vote will have.
 

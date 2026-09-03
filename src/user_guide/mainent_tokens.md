@@ -3,17 +3,17 @@
 
 To use **SmartPushti**, you will need two types of tokens in your wallet:
 
-### 1. SmartPushti Tokens (PUSHTI)
+### 1. SmartPushti Tokens (AROGYA)
 
-**PUSHTI** is the main utility token of the SmartPushti platform.
+**AROGYA** is the main utility token of the SmartPushti platform.
 
-You need PUSHTI to:
+You need AROGYA to:
 
 * Access platform features
 * Participate in the ecosystem
 * Make transactions within SmartPushti
 
-Make sure your wallet holds enough PUSHTI before using the app.
+Make sure your wallet holds enough AROGYA before using the app.
 
 ---
 
@@ -70,7 +70,7 @@ You can also bridge other supported tokens if needed.
 
 Make sure your wallet has:
 
-✅ PUSHTI tokens
+✅ AROGYA tokens
 
 ✅ ETH on Arbitrum for gas fees
 

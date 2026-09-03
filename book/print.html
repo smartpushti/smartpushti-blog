@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-e25ccd2a.js";
+            window.path_to_searchindex_js = "searchindex-a9b760f9.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-bfe4236b.js"></script>
@@ -474,15 +474,15 @@ If someone asks → it is a scam.</p>
 <h1 id="tokens-needed-to-use-smartpushti-mainnet"><a href="#tokens-needed-to-use-smartpushti-mainnet" class="header">Tokens Needed to Use Smartpushti (Mainnet)</a></h1>
 <h2 id="tokens-needed-to-use-smartpushti"><a class="header" href="#tokens-needed-to-use-smartpushti">Tokens Needed to Use SmartPushti</a></h2>
 <p>To use <strong>SmartPushti</strong>, you will need two types of tokens in your wallet:</p>
-<h3 id="1-smartpushti-tokens-pushti"><a class="header" href="#1-smartpushti-tokens-pushti">1. SmartPushti Tokens (PUSHTI)</a></h3>
-<p><strong>PUSHTI</strong> is the main utility token of the SmartPushti platform.</p>
-<p>You need PUSHTI to:</p>
+<h3 id="1-smartpushti-tokens-arogya"><a class="header" href="#1-smartpushti-tokens-arogya">1. SmartPushti Tokens (AROGYA)</a></h3>
+<p><strong>AROGYA</strong> is the main utility token of the SmartPushti platform.</p>
+<p>You need AROGYA to:</p>
 <ul>
 <li>Access platform features</li>
 <li>Participate in the ecosystem</li>
 <li>Make transactions within SmartPushti</li>
 </ul>
-<p>Make sure your wallet holds enough PUSHTI before using the app.</p>
+<p>Make sure your wallet holds enough AROGYA before using the app.</p>
 <hr>
 <h3 id="2-eth-for-gas-fees"><a class="header" href="#2-eth-for-gas-fees">2. ETH for Gas Fees</a></h3>
 <p>SmartPushti is hosted on the <a href="https://docs.arbitrum.io/learn-more/faq"><strong>Arbitrum Network</strong></a>, which is a Layer-2 network built on Ethereum.</p>
@@ -521,7 +521,7 @@ If someone asks → it is a scam.</p>
 <hr>
 <h2 id="quick-checklist-before-using-symbiosky"><a class="header" href="#quick-checklist-before-using-symbiosky">Quick Checklist Before Using Symbiosky</a></h2>
 <p>Make sure your wallet has:</p>
-<p>✅ PUSHTI tokens</p>
+<p>✅ AROGYA tokens</p>
 <p>✅ ETH on Arbitrum for gas fees</p>
 <p>✅ Arbitrum network selected in your wallet</p>
 <hr>
@@ -539,7 +539,7 @@ If someone asks → it is a scam.</p>
    ↓
 2. Proposal enters voting period
    ↓
-3. Community votes with convictions
+3. Community votes with convictions (-5 to + 5)
    ↓
 4. Voting period ends
    ↓
@@ -547,9 +547,9 @@ If someone asks → it is a scam.</p>
    ↓
 6. Score expiration timer starts
    ↓
-7. Reward can be released (if score ≥ 5)
+7. Reward can be released (if score 1-5)
    ↓
-8. Author can reclaim stake (if score ≥ 5)
+8. Author can reclaim stake (if score 1-5)
 </code></pre>
 <h2 id="conviction-lifecycle"><a class="header" href="#conviction-lifecycle">Conviction Lifecycle</a></h2>
 <pre><code>1. User creates conviction with level &amp; stake
@@ -564,86 +564,56 @@ If someone asks → it is a scam.</p>
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="how-to-create-a-proposal-earn-smartpushit-incentives"><a href="#how-to-create-a-proposal-earn-smartpushit-incentives" class="header">How to Create a Proposal (Earn SmartPushit Incentives)</a></h1>
-<h2 id="how-to-create-a-proposal-earn-sysky-incentives"><a class="header" href="#how-to-create-a-proposal-earn-sysky-incentives">How to Create a Proposal (Earn SYSKY Incentives)</a></h2>
-<p>You can create a proposal in Symbiosky to <strong>earn SYSKY token incentives</strong> based on the work you do for the ecosystem.</p>
+<h2 id="how-to-create-a-proposal-earn-arogya-incentives"><a class="header" href="#how-to-create-a-proposal-earn-arogya-incentives">How to Create a Proposal (Earn AROGYA Incentives)</a></h2>
+<p>You can create a proposal in Smartpushti to <strong>earn AROGYA token incentives</strong> based on the work you do for the ecosystem.</p>
 <p>Follow the steps below.</p>
 <p>Navigate to Dashboard → Proposals → Create Proposal.</p>
 <hr>
-<h2 id="step-1-post-your-signature-in-the-thread"><a class="header" href="#step-1-post-your-signature-in-the-thread">Step 1: Post Your Signature in the Thread</a></h2>
-<p><a href="https://symbiosky.vercel.app/bsky/post_signature">Link</a></p>
-<p>To prevent impersonation, you must post a <strong>cryptographic signature</strong> in your Bluesky thread.</p>
-<p>This proves that:</p>
-<ul>
-<li>The wallet submitting the proposal truly belongs to you</li>
-<li>No one can fake your identity</li>
-</ul>
-<h3 id="signature-format"><a class="header" href="#signature-format">Signature Format</a></h3>
-<p>Your signature must follow this format:</p>
-<pre><code>did:plc:il4tjezsxcinsljjti457ptz
-
-🔐 Signed by: 0x13db02Ca2f09DC38002dA2f20775707F771dde86
-📝 Signature: 0xd0a4a62c87f7c6989944d4e8e1decc94ae1ed16303ee71e4ecc2fc565d8ab0482c03e5387640f432719cb43ad873f674ea47f14be095a5ac6de43960d18738351c
-</code></pre>
-<p>This signature:</p>
-<ul>
-<li>Links your Bluesky DID to your wallet address</li>
-<li>Prevents impersonation attacks</li>
-<li>Ensures proposal authenticity</li>
-</ul>
-<hr>
-<h2 id="step-2-prepare-your-bluesky-thread"><a class="header" href="#step-2-prepare-your-bluesky-thread">Step 2: Prepare Your Bluesky Thread</a></h2>
-<p>Before submitting a proposal, you must create a <strong>public Bluesky thread</strong> that explains your work.</p>
+<h2 id="step-1-prepare-your-document-link"><a class="header" href="#step-1-prepare-your-document-link">Step 1: Prepare Your Document Link</a></h2>
+<p>Before submitting a proposal, you must create a <strong>document link</strong> that explains your work. Make the document URL short using a URL shortener.</p>
 <p>Your thread should include:</p>
 <ul>
 <li>What you are building or contributing</li>
 <li>Clear description of the work</li>
 <li>Updates or progress (optional but recommended)</li>
 </ul>
-<p>You will need to submit the <strong>link to this thread</strong> when creating the proposal.</p>
 <hr>
-<h2 id="step-3-stake-1-sysky-token"><a class="header" href="#step-3-stake-1-sysky-token">Step 3: Stake 1 SYSKY Token</a></h2>
-<p>To submit a proposal, you must <strong>stake 1 SYSKY token</strong>.</p>
+<h2 id="step-2-stake-001-arogya-token"><a class="header" href="#step-2-stake-001-arogya-token">Step 2: Stake 0.01 AROGYA Token</a></h2>
+<p>To submit a proposal, you must <strong>stake  0.01 AROGYA token</strong>.</p>
 <p>This stake helps:</p>
 <ul>
 <li>Prevent spam proposals</li>
 <li>Ensure serious submissions</li>
 </ul>
 <hr>
-<h2 id="step-4-submit-the-proposal"><a class="header" href="#step-4-submit-the-proposal">Step 4: Submit the Proposal</a></h2>
+<h2 id="step-3-submit-the-proposal"><a class="header" href="#step-3-submit-the-proposal">Step 3: Submit the Proposal</a></h2>
 <p>When creating your proposal, you will need to provide:</p>
 <ul>
-<li>Bluesky thread link</li>
+<li>Document Link</li>
 <li>Your signature (already posted in the thread)</li>
-<li>Required stake (1 SYSKY token)</li>
+<li>Required stake (0.01 AROGYA token)</li>
 </ul>
 <p>Once submitted, your proposal will go through evaluation. You will also receive a proposal ID.</p>
 <hr>
 <h2 id="step-5-proposal-scoring--rewards"><a class="header" href="#step-5-proposal-scoring--rewards">Step 5: Proposal Scoring &amp; Rewards</a></h2>
-<p>Proposals are scored between <strong>0–10</strong>.</p>
-<h3 id="if-accepted-score-510"><a class="header" href="#if-accepted-score-510">If Accepted (Score 5–10)</a></h3>
+<p>Proposals are scored between <strong>-5 to 5</strong>.</p>
+<h3 id="if-accepted-score-1-to--5"><a class="header" href="#if-accepted-score-1-to--5">If Accepted (Score +1 to + 5)</a></h3>
 <p>You will receive:</p>
 <ul>
-<li>Your <strong>1 SYSKY stake returned</strong></li>
-<li>Additional <strong>SYSKY incentives</strong> based on your score</li>
+<li>Your <strong>0.01 AROGYA stake returned</strong></li>
+<li>Additional <strong>AROGYA incentives</strong> based on your score</li>
 </ul>
 <p>Higher scores → Higher rewards.</p>
 <hr>
-<h3 id="if-rejected-score-below-5"><a class="header" href="#if-rejected-score-below-5">If Rejected (Score Below 5)</a></h3>
+<h3 id="if-rejected-score-below-1"><a class="header" href="#if-rejected-score-below-1">If Rejected (Score Below +1)</a></h3>
 <ul>
 <li>Your stake may not be returned.</li>
 <li>You can improve your work and submit again.</li>
 </ul>
-<hr>
-<h2 id="important-tips"><a class="header" href="#important-tips">Important Tips</a></h2>
-<ul>
-<li>Always post your signature in the Bluesky thread before submitting.</li>
-<li>Make sure your work description is clear and detailed.</li>
-<li>Keep updating your thread to improve your evaluation score.</li>
-</ul>
 <hr><div style="break-before: page; page-break-before: always;"></div>
 <h1 id="how-to-create-a-conviction-1"><a href="#how-to-create-a-conviction-1" class="header">How to Create a Conviction</a></h1>
 <h2 id="how-to-create-a-conviction"><a class="header" href="#how-to-create-a-conviction">How to Create a Conviction</a></h2>
-<p>Conviction allows you to <strong>lock your SYSKY tokens</strong> to gain stronger voting power when voting on proposals.</p>
+<p>Conviction allows you to <strong>lock your AROGYA tokens</strong> to gain stronger voting power when voting on proposals.</p>
 <p>The longer you lock your tokens, the more influence your vote will have.</p>
 <hr>
 <h2 id="step-1-navigate-to-conviction-page"><a class="header" href="#step-1-navigate-to-conviction-page">Step 1: Navigate to Conviction Page</a></h2>
@@ -691,7 +661,7 @@ Since your tokens are locked, you cannot:</p>
 <p>After the conviction period ends you can unlock your token.</p>
 <p>Higher conviction levels → Longer unlock periods.</p>
 <hr>
-<h2 id="important-tips-1"><a class="header" href="#important-tips-1">Important Tips</a></h2>
+<h2 id="important-tips"><a class="header" href="#important-tips">Important Tips</a></h2>
 <ul>
 <li>Choose lock duration carefully — you cannot withdraw early.</li>
 <li>Higher conviction increases your impact on governance decisions.</li>
@@ -700,7 +670,7 @@ Since your tokens are locked, you cannot:</p>
 <hr><div style="break-before: page; page-break-before: always;"></div>
 <h1 id="how-to-vote-on-a-proposal-1"><a href="#how-to-vote-on-a-proposal-1" class="header">How to Vote on a Proposal</a></h1>
 <h2 id="how-to-vote-on-a-proposal"><a class="header" href="#how-to-vote-on-a-proposal">How to Vote on a Proposal</a></h2>
-<p>Voting allows you to evaluate proposals and help decide how SYSKY incentives are distributed.</p>
+<p>Voting allows you to evaluate proposals and help decide how AROGYA incentives are distributed.</p>
 <hr>
 <h2 id="step-1-navigate-to-voting-page"><a class="header" href="#step-1-navigate-to-voting-page">Step 1: Navigate to Voting Page</a></h2>
 <p>Go to:</p>
@@ -747,17 +717,26 @@ Since your tokens are locked, you cannot:</p>
 <h2 id="step-6-types-of-contributions-to-evaluate"><a class="header" href="#step-6-types-of-contributions-to-evaluate">Step 6: Types of Contributions to Evaluate</a></h2>
 <p>Proposals may fall into different categories, such as:</p>
 <ul>
-<li><strong>Journalism</strong> — reporting, awareness, public communication</li>
-<li><strong>Research &amp; Academia</strong> — studies, analysis, technical papers</li>
-<li><strong>Civic Issues</strong> — governance, public engagement, community work</li>
-<li><strong>Education</strong> — tutorials, guides, knowledge sharing</li>
-<li><strong>Open Source</strong> — code contributions, tools, infrastructure</li>
+<li><strong>Research &amp; Academia</strong> — scientific studies, systematic reviews, meta-analyses, data analysis, technical papers, and research replication</li>
+<li><strong>Education &amp; Knowledge Sharing</strong> — tutorials, educational guides, courses, workshops, explainers, and evidence-based health information</li>
+<li><strong>Health &amp; Wellness Innovation</strong> — development of new tools, technologies, protocols, interventions, or approaches that could improve health and wellbeing</li>
+<li><strong>Public Health</strong> — disease prevention, health promotion, community health initiatives, screening programs, and population-level interventions</li>
+<li><strong>Mental Health &amp; Wellbeing</strong> — research, education, interventions, peer support, and resources related to psychological wellbeing and mental health</li>
+<li><strong>Nutrition &amp; Lifestyle</strong> — evidence-based work on nutrition, physical activity, sleep, stress management, healthy lifestyles, and preventive health</li>
+<li><strong>Traditional &amp; Complementary Health</strong> — rigorous research and documentation of traditional, complementary, and alternative health practices, particularly where evidence and safety can be evaluated</li>
+<li><strong>Community Health &amp; Outreach</strong> — initiatives that improve access to health information, resources, services, or support within communities</li>
+<li><strong>Open Science &amp; Data</strong> — open datasets, research infrastructure, reproducible research, open-source tools, and resources that enable further health research</li>
+<li><strong>Peer Review &amp; Scientific Criticism</strong> — reviewing research, identifying methodological problems, reproducing findings, and improving the quality of published work</li>
+<li><strong>Health Communication</strong> — translating scientific evidence into accessible content for researchers, practitioners, patients, and the general public</li>
+<li><strong>Collaboration &amp; Research Networks</strong> — projects that connect researchers, practitioners, educators, and communities to conduct or support health and wellness research</li>
+<li><strong>Policy &amp; Evidence-Based Advocacy</strong> — research and analysis that can inform health policies, public programs, and institutional decision-making</li>
+<li><strong>Practical Community Impact</strong> — measurable initiatives that apply existing evidence to improve health outcomes or wellbeing in real-world communities</li>
 </ul>
 <p>Each category may require different evaluation standards.</p>
 <hr>
-<p>Remember that if the conviction-weighted mean score is between 5 and 10, the proposal will receive incentives.</p>
+<p>Remember that if the conviction-weighted mean score is between +1 and +5, the proposal will receive incentives.</p>
 <hr>
-<h2 id="important-tips-2"><a class="header" href="#important-tips-2">Important Tips</a></h2>
+<h2 id="important-tips-1"><a class="header" href="#important-tips-1">Important Tips</a></h2>
 <ul>
 <li>Vote honestly and based on quality.</li>
 <li>Avoid bias or personal influence.</li>
@@ -787,22 +766,6 @@ Since your tokens are locked, you cannot:</p>
         <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
         <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
         <script>

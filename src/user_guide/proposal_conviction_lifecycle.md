@@ -5,7 +5,7 @@
    ↓
 2. Proposal enters voting period
    ↓
-3. Community votes with convictions
+3. Community votes with convictions (-5 to + 5)
    ↓
 4. Voting period ends
    ↓
@@ -13,9 +13,9 @@
    ↓
 6. Score expiration timer starts
    ↓
-7. Reward can be released (if score ≥ 5)
+7. Reward can be released (if score 1-5)
    ↓
-8. Author can reclaim stake (if score ≥ 5)
+8. Author can reclaim stake (if score 1-5)
 ```
 
 ## Conviction Lifecycle
