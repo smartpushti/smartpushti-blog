@@ -3,6 +3,9 @@
 - [Introduction](./introduction.md)
 - [Website Links](./website_links.md)
 
+# Articles
+- [Shareholder Voting vs. Conviction Voting: Who Should Control the Money?](./articles/economics/shareholder-vs-conviction.md)
+
 # User Guide
 - [How to Use a Crypto Wallet](./user_guide/use_a_crypto_wallet.md)
 <!--- [Testnet Tokens Guide (For Symbiosky Testing)](./user_guide/testnet_tokens.md)
