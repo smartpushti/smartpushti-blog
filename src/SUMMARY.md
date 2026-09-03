@@ -5,6 +5,7 @@
 
 # Articles
 - [Shareholder Voting vs. Conviction Voting: Who Should Control the Money?](./articles/economics/shareholder-vs-conviction.md)
+- [Money Is the Engine — Without Public Control, the Whole Machine Fails](./articles/economics/people_controlled_money.md)
 
 # User Guide
 - [How to Use a Crypto Wallet](./user_guide/use_a_crypto_wallet.md)

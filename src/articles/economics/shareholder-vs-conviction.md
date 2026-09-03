@@ -1,5 +1,8 @@
 # Shareholder Voting vs. Conviction Voting: Who Should Control the Money?
 
+Date: 03-09-2026
+
+
 Most companies and many organizations are governed through some form of **shareholder voting**. The basic principle is simple: people who own more of the organization’s capital receive more voting power.
 
 This model makes sense when the primary objective is to protect and maximize the interests of capital owners.
