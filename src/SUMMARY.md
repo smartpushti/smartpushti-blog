@@ -7,6 +7,7 @@
 - [Shareholder Voting vs. Conviction Voting: Who Should Control the Money?](./articles/economics/shareholder-vs-conviction.md)
 - [Money Is the Engine — Without Public Control, the Whole Machine Fails](./articles/economics/people_controlled_money.md)
 - [The Health Dividend: Maximizing Healthcare ROI Through Conviction Voting in Research Funding](./articles/economics/health_dividend.md)
+- [Why Nostr is the Future of Academic Publishing](./articles/decentralization/nostr-academic-publishing.md)
 
 # User Guide
 - [How to Use a Crypto Wallet](./user_guide/use_a_crypto_wallet.md)

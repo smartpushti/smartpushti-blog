@@ -1,5 +1,7 @@
 # The Health Dividend: Maximizing Healthcare ROI Through Conviction Voting in Research Funding
 
+Date: 03-09-2026
+
 For decades, healthcare spending has been viewed primarily through the lens of cost—a necessary burden on national budgets and household incomes. However, a growing body of empirical evidence reveals a different reality: strategic spending on healthcare is one of the highest-yielding investments a society can make. 
 
 Yet, to sustain and accelerate the medical breakthroughs that drive this return on investment (ROI), we must fundamentally rethink how we fund scientific research. Traditional grant models are increasingly bottlenecked by bias and inefficiency. Enter **conviction voting**, an innovative allocation model that can ensure research funds are directed toward the most robust, enduring, and impactful scientific endeavors.
