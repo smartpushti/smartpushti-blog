@@ -1,5 +1,9 @@
 # Why Nostr is the Future of Academic Publishing
 
+Date: 04-09-2026
+
+[SmartPushti Nostr Client](https://smartpushti-nostr.vercel.app/)
+
 The academic publishing industry is at a breaking point. For decades, the "publish or perish" incentive system has rewarded quantity over quality: more papers, more citations, and more metrics. Today, the rise of generative AI and automated paper mills has exposed this fragility, allowing bad actors to mass-produce "valid-looking" research at an unprecedented scale. The system didn’t just break; it was already broken, and AI simply made the cracks impossible to ignore.
 
 To rebuild trust, transparency, and integrity in scientific communication, we need a paradigm shift. Enter [**Nostr**](https://nostr.org/)—a decentralized, open protocol that offers the foundational architecture for the next generation of academic publishing.
