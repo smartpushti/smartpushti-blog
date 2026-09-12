@@ -8,6 +8,7 @@
 - [Money Is the Engine — Without Public Control, the Whole Machine Fails](./articles/economics/people_controlled_money.md)
 - [The Health Dividend: Maximizing Healthcare ROI Through Conviction Voting in Research Funding](./articles/economics/health_dividend.md)
 - [Why Nostr is the Future of Academic Publishing](./articles/decentralization/nostr-academic-publishing.md)
+- [Conviction Voting: Not a Wealth Fix, But a Real Funding Mechanism for Public Goods](./articles/economics/public-good-funding.md)
 # Mental Health
 - [Mental Health Quizzes](./articles/mental-health/mental-health-quizes.md)
 
